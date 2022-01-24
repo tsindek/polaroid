@@ -3,7 +3,7 @@ main {
   height: 800px;
   margin: auto;
   display: flex;
-
+  /*box-sizing: border-box;  ????*/
 }
 
 .picture {
@@ -16,8 +16,8 @@ main {
     padding-right: 1rem;
     padding-left: 1rem;
     background-color: white;
-    box-shadow: 2px 2px rgb(220, 220, 220);
-    border: 1px solid rgb(220, 220, 220);
+    box-shadow: 5px 5px rgb(220, 220, 220);
+    border: 0.2px solid rgb(220, 220, 220, 0.5);
     margin: auto;
     transform: rotate(-3deg);
 }
@@ -31,9 +31,8 @@ main {
     line-height: 4rem;
     font-family: 'Qwigley', cursive;
     font-size: 2rem;
+    color: gray;
 }
-
-
 
 
 
