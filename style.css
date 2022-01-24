@@ -1,0 +1,82 @@
+main {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+
+}
+
+.picture {
+    max-width: 400px;
+}
+
+.polaroid {
+    max-width: 400px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: white;
+    box-shadow: 2px 2px rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
+    margin: auto;
+    transform: rotate(-3deg);
+}
+
+.caption {
+    height: 4rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4rem;
+    font-family: 'Qwigley', cursive;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/*
+._picture {
+  width: 20rem;
+  position: absolute;
+  padding: 1.5rem;
+  box-shadow: 2px 2px rgb(220, 220, 220);
+  border: 1px solid rgb(220, 220, 220);
+  padding-bottom: 5rem;
+}
+
+_.caption {
+  position: absolute;
+  margin: auto;
+  bottom: 1rem;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+_.polaroid {
+  position: absolute;
+  width: 20rem;
+  height: 1200px;
+  background-color: red;
+  transform: rotate(-3deg);
+}
+
+_.polaroid {
+  position: absolute;
+  padding: 1.5rem;
+  box-shadow: 2px 2px rgb(220, 220, 220);
+  border: 1px solid rgb(220, 220, 220);
+  padding-bottom: 5rem;
+  transform: rotate(-3deg);
+}
+
+.picture {
+  max-width: 400px;
+}
